@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="e7563652c34722104882d5fc05013115" label="Wish Item" max_length="40" name="x_1812721_wish_lis_wish_item" type="collection">
+        <element display="true" label="url" max_length="1024" name="url" type="url"/>
         <element attributes="encode_utf8=false" label="Requester" max_length="32" name="requester" reference="imp_user" type="reference"/>
+        <element label="Quantity" max_length="40" name="quantity" type="integer"/>
         <index name="index">
             <element name="requester"/>
         </index>
